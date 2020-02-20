@@ -89,9 +89,12 @@ a {
     /* Slider */
 
 .slider {
-    position: relative;
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
+}
+
+.slider__background {
+    position: relative;
 }
 
 .slider__verticalphone {
@@ -143,8 +146,9 @@ a {
         border-bottom: 6px solid #ffffff;     
         background-color: #f2f2f2;
     }
-
+    
     .info__title {
+        padding: 0 40px;
         font-family: 'Lato', sans-serif;
         font-size: 30px;
         font-weight: 900;
@@ -153,12 +157,11 @@ a {
     }
 
     .info__description {
-        padding: 18px 0 0 0;
+        padding: 18px 40px 0;
         font-family: 'Lato', sans-serif;
         font-size: 18px;
-        font-weight: 100;
+        font-weight: 300;
         text-align: justify;
-        letter-spacing: 0px;
         line-height: 30px;
         color: #767e9e;
     }
@@ -166,7 +169,7 @@ a {
     .info__list {
         display: flex;
         flex-direction: column;
-        padding: 43px 0 0 0;
+        padding: 43px 40px 0;
     }
 
     .info__line:last-child {
