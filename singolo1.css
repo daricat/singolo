@@ -75,6 +75,10 @@ a {
 
 .header__item a {
     color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -118,6 +122,10 @@ a {
     font-size: 31px;
     color: #ca4549;
     cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -126,6 +134,10 @@ a {
     font-size: 31px;
     color: #ca4549;
     cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -183,7 +195,7 @@ a {
     } 
 
     .info__icon {
-        height: fit-content;
+        height: 59px;
         padding: 4px 0 0 1px;
     }
 
