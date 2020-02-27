@@ -1,0 +1,42 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin-ext');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, h1, h2, p, pre {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: 1020px;
+    margin: auto;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #2d303a;
+}
+
+
+.portfolio_position {
+    padding: 60.4px 40px 67.06px;
+}
+
+.portfolio__title {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 800;
+    color: #666d89;
+    letter-spacing: -0.2px;
+}
+
