@@ -91,6 +91,10 @@ a {
   transition: all 0.5s ease;
 }
 
+.header__item-active {
+  color: #f06c64 !important; 
+}
+
 .header__dot {
   padding: 0px 0px 0 11px;
   display: block;
@@ -314,6 +318,9 @@ a {
 .gallery__item {
   padding: 0 0 16px 0px;
 }
+
+
+
 
 /* About us */
 
