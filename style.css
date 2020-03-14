@@ -105,26 +105,192 @@ a {
 
 /* Slider */
 
-.slider {
-  background-color: #f06c64;
+.slider {  
   border-bottom: 6px solid #ea676b;
+}
+
+.slide {
+  display: none;  
+}
+
+.active_slide {
+  display: block;
 }
 
 .slider__background {
   position: relative;
 }
 
-.slider__verticalphone {
-  position: absolute;
-  top: 53px;
-  left: 112px;
+/* Slide 1 */
+
+.slide1_bg {
+  background-color: #f06c64;
 }
 
-.slider__horizontalphone {
-  position: absolute;
-  top: 174px;
-  left: 425px;
+.slide2_bg {
+  background-color: #648BF0;
 }
+
+.phone_vertical {
+  position: absolute;
+  top: 52px;
+  left: 112px;
+  z-index: 4;
+}
+
+.phone_horizontal {
+  position: absolute;
+  top: 52px;
+  left: 546px;
+  transform: rotate(90deg);
+  z-index: 4;
+}
+
+.bg_vertical {
+  position: absolute;
+  top: 117px;
+  left: 126px;
+  z-index: 3;
+}
+
+.bg_horizontal {
+  position: absolute;
+  top: 188px;
+  right: 202px;
+  z-index: 3;
+}
+
+.bg_button-horizontal {
+  position: absolute;
+  top: 259px;
+  left: 433px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.bg_button-vertical {
+  position: absolute;
+  bottom: 91px;
+  left: 198px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.shadow-horizontal {
+  position: absolute;
+  top: 173px;
+  left: 426px;
+}
+
+.shadow-vertical {
+  position: absolute;
+  top: 53px;
+  left: 112px
+}
+
+.bg_black-vertical {
+  display: none;
+  position: absolute;
+  top: 117px;
+  left: 123px;
+  z-index: 3;
+}
+
+.bg_black-horizontal {
+  display: none;
+  position: absolute;
+  top: 104px;
+  left: 557px;
+  z-index: 3;
+  transform: rotate(90deg);
+}
+
+.bg_black-active {
+  display: block !important;
+}
+
+/* Slide 2 */
+
+.phone_right {
+  position: absolute;
+  top: 152px;
+  right: 268px;
+  z-index: 3;
+}
+
+.phone_left {
+  position: absolute;
+  top: 151px;
+  left: 252px;
+  z-index: 3;
+}
+
+.phone_center {
+  position: absolute;
+  top: 42px;
+  left: 383px;
+  z-index: 6;
+}
+
+.bg_vertical-left_slide2 {
+  position: absolute;
+  top: 193px;
+  left: 261px;
+  z-index: 2;
+}
+
+.bg_vertical-right_slide2 {
+  position: absolute;
+  top: 194px;
+  right: 276px;
+  z-index: 2;
+}
+
+.bg_vertical-center_slide2 {
+  position: absolute;
+  top: 112px;
+  left: 397px;
+  z-index: 5;
+}
+
+.shadow-vertical_right {
+  position: absolute;
+  top: 152px;
+  right: 251px;
+  z-index: 1;
+}
+
+.shadow-vertical_left {
+  position: absolute;
+  top: 151px;
+  left: 252px;
+  z-index: 1;
+}
+
+.shadow-vertical_center {
+  position: absolute;
+  top: 42px;
+  left: 382px;
+  z-index: 4;
+}
+
+.bg_black_slide2 {
+  display: none;
+  position: absolute;
+  top: 112px;
+  left: 397px;
+  z-index: 6;
+}
+
+.bg_button_slide2 {
+  position: absolute;
+  top: 476px;
+  left: 476px;
+  cursor: pointer;
+  z-index: 7;
+}
+
+
 .slider__list {
   display: flex;
   justify-content: space-between;
