@@ -129,4 +129,48 @@ portfolio_nav.addEventListener('click', (event) => {
     portfolio_nav.querySelectorAll('button').forEach(mix_image);
 });
 
+// Portfolio active image
 
+portfolio_gallery.addEventListener("click", (event) => {
+    portfolio_gallery.querySelectorAll('img').forEach(el => el.classList.remove('gallery_item-active')); 
+    event.target.classList.add('gallery_item-active');
+});
+
+
+// Quote message 
+
+const form_submit = document.getElementsByClassName('email_submit')[0];
+const message_block = document.getElementsByClassName('quote__message')[0];
+const message_close = document.getElementsByClassName('message_close')[0];
+
+
+let message_theme = document.getElementsByClassName('message_theme')[0];
+let message_describe = document.getElementsByClassName('message_describe')[0];
+
+
+function get_info () {
+    let theme_value = document.getElementById('quote_theme').value;
+    let describe_value = document.getElementById('quote_describe').value;
+
+    if ( theme_value.length == 0) {
+        message_theme.textContent = 'Без темы';
+    } else {
+        message_theme.textContent = theme_value;
+    }
+
+    if ( describe_value.length == 0 ) {
+        message_describe.textContent = 'Без описания';
+    } else {
+        message_describe.textContent = describe_value;
+    }
+
+    message_block.classList.add('quote__message-active');
+
+}
+
+function mess_close () {
+    message_block.classList.remove('quote__message-active');
+}
+
+form_submit.addEventListener('click', get_info);
+message_close.addEventListener('click', mess_close);
