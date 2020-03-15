@@ -131,9 +131,19 @@ portfolio_nav.addEventListener('click', (event) => {
 
 // Portfolio active image
 
+
 portfolio_gallery.addEventListener("click", (event) => {
     portfolio_gallery.querySelectorAll('img').forEach(el => el.classList.remove('gallery_item-active')); 
-    event.target.classList.add('gallery_item-active');
+
+    let element = event.target;
+    let element_a = element.classList.contains("gallery__item");
+    let element_div = element.classList.contains("portfolio__gallery");
+
+    if ( element_a == true || element_div == true ) {
+        element.classList.remove('gallery_item-active');
+    } else {
+        element.classList.add('gallery_item-active');
+    }    
 });
 
 
