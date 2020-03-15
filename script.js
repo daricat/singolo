@@ -131,7 +131,6 @@ portfolio_nav.addEventListener('click', (event) => {
 
 // Portfolio active image
 
-
 portfolio_gallery.addEventListener("click", (event) => {
     portfolio_gallery.querySelectorAll('img').forEach(el => el.classList.remove('gallery_item-active')); 
 
@@ -165,13 +164,13 @@ function get_info () {
     if ( theme_value.length == 0) {
         message_theme.textContent = 'Без темы';
     } else {
-        message_theme.textContent = theme_value;
+        message_theme.textContent = 'Тема:' + theme_value;
     }
 
     if ( describe_value.length == 0 ) {
-        message_describe.textContent = 'Без описания';
+        message_describe.textContent = 'Без описания ';
     } else {
-        message_describe.textContent = describe_value;
+        message_describe.textContent = 'Описание: ' + describe_value;
     }
 
     message_block.classList.add('quote__message-active');
