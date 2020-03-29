@@ -138,161 +138,204 @@ a {
 
 .phone_vertical {
   position: absolute;
-  top: 52px;
-  left: 112px;
+  margin-top: 5.2%;
+  width: 21.1%;  
+  left: 11%;
   z-index: 4;
+  transition: all 0.7s ease;
 }
 
 .phone_horizontal {
   position: absolute;
-  top: 52px;
-  left: 546px;
+  width: 21.2%;  
+  margin-top: 4.9%;
+  left: 53.7%;
   transform: rotate(90deg);
   z-index: 4;
+  transition: all 0.7s ease;
 }
 
 .bg_vertical {
   position: absolute;
-  top: 117px;
-  left: 126px;
+  margin-top: 11.7%;
+  width: 18.4%;
+  left: 12.4%;
   z-index: 3;
+  transition: all 0.7s ease;
 }
 
 .bg_horizontal {
   position: absolute;
-  top: 188px;
-  right: 202px;
+  margin-top: 18.3%;
+  width: 32.7%;
+  right: 19.6%;
   z-index: 3;
+  transition: all 0.7s ease;
 }
 
 .bg_button-horizontal {
   position: absolute;
-  top: 259px;
-  left: 433px;
+  margin-top: 25.5%;
+  width: 4.1%;
+  left: 42.5%;
   cursor: pointer;
   z-index: 5;
+  transition: all 0.7s ease;
 }
 
 .bg_button-vertical {
   position: absolute;
-  bottom: 91px;
-  left: 198px;
+  margin-top: 45.1%;
+  width: 4.1%;
+  left: 19.5%;
   cursor: pointer;
   z-index: 5;
+  transition: all 0.7s ease;
 }
 
 .shadow-horizontal {
   position: absolute;
-  top: 173px;
-  left: 426px;
+  margin-top: 17.1%;
+  width: 47.4%;
+  left: 41.8%;
+  transition: all 0.7s ease;
 }
 
 .shadow-vertical {
   position: absolute;
-  top: 53px;
-  left: 112px
+  margin-top: 5.2%;
+  width: 23.6%;
+  left: 11%;
+  transition: all 0.7s ease;
 }
 
 .bg_black-vertical {
   display: none;
   position: absolute;
-  top: 117px;
-  left: 123px;
+  margin-top: 10%;
+  width: 20%;
+  left: 12%;
   z-index: 3;
+  transition: all 0.7s ease;
 }
 
 .bg_black-horizontal {
   display: none;
   position: absolute;
-  top: 104px;
-  left: 557px;
+  margin-top: 10%;
+  width: 20%;
+  left: 55%;
   z-index: 3;
   transform: rotate(90deg);
+  transition: all 0.7s ease;
 }
 
 .bg_black-active {
   display: block !important;
+  transition: all 0.1s ease;
 }
 
 /* Slide 2 */
 
 .phone_right {
   position: absolute;
-  top: 152px;
-  right: 268px;
+  width: 13.8%;
+  margin-top: 14.9%;  
+  right: 26.2%;
   z-index: 3;
+  transition: all 0.7s ease;
 }
 
 .phone_left {
   position: absolute;
-  top: 151px;
-  left: 252px;
+  width: 13.8%;
+  margin-top: 14.9%;
+  left: 24.8%;
   z-index: 3;
+  transition: all 0.7s ease;
 }
 
 .phone_center {
   position: absolute;
-  top: 42px;
-  left: 383px;
+  width: 22.5%;
+  margin-top: 4.2%;
+  left: 37.6%;
   z-index: 6;
+  transition: all 0.7s ease;
 }
 
 .bg_vertical-left_slide2 {
   position: absolute;
-  top: 193px;
-  left: 261px;
+  width: 12.09%;
+  margin-top: 19%;
+  left: 25.6%;
   z-index: 2;
+  transition: all 0.7s ease;
 }
 
 .bg_vertical-right_slide2 {
   position: absolute;
-  top: 194px;
-  right: 276px;
+  width: 12.09%;
+  margin-top: 19%;
+  right: 27%;
   z-index: 2;
+  transition: all 0.7s ease;
 }
 
 .bg_vertical-center_slide2 {
   position: absolute;
-  top: 112px;
-  left: 397px;
+  width: 19.7%;
+  margin-top: 11%;
+  left: 39%;
   z-index: 5;
+  transition: all 0.7s ease;
 }
 
 .shadow-vertical_right {
   position: absolute;
-  top: 152px;
-  right: 251px;
+  width: 15.4%;
+  margin-top: 14.9%;
+  right: 24.5%;
   z-index: 1;
+  transition: all 0.7s ease;
 }
 
 .shadow-vertical_left {
   position: absolute;
-  top: 151px;
-  left: 252px;
+  width: 15.4%;
+  margin-top: 15%;
+  left: 24.9%;
   z-index: 1;
+  transition: all 0.7s ease;
 }
 
 .shadow-vertical_center {
   position: absolute;
-  top: 42px;
-  left: 382px;
+  width: 25%;
+  margin-top: 4.2%;
+  left: 37.6%;
   z-index: 4;
+  transition: all 0.7s ease;
 }
 
 .bg_black_slide2 {
   display: none;
   position: absolute;
-  top: 112px;
-  left: 397px;
-  z-index: 6;
+  width: 20%;
+  margin-top: 11%;
+  left: 39%;
+  z-index: 5;
+  transition: all 0.7s ease;
 }
 
 .bg_button_slide2 {
   position: absolute;
-  top: 476px;
-  left: 476px;
+  width: 4.3%;
+  margin-top: 46.7%;
+  left: 46.7%;
   cursor: pointer;
   z-index: 7;
+  transition: all 0.7s ease;
 }
 
 
@@ -301,8 +344,15 @@ a {
   justify-content: space-between;
 }
 
-.fa-chevron-left {
-  margin: 280px 0 283px 40px;
+.slider__item:first-of-type {
+  margin: 27.4% 0 27.6% 4%;
+}
+
+.slider__item:last-of-type {
+  margin: 27.4% 3.7% 27.6% 0%;
+}
+
+.fa-chevron-left {  
   font-size: 31px;
   color: #ca4549;
   cursor: pointer;
@@ -314,7 +364,6 @@ a {
 }
 
 .fa-chevron-right {
-  margin: 280px 38px 283px 0px;
   font-size: 31px;
   color: #ca4549;
   cursor: pointer;
@@ -337,7 +386,7 @@ a {
 
 .info {
   margin: 0;
-  padding: 59px 40px 62px;
+  padding: 59px 40px 32px;
   border-bottom: 6px solid #ffffff;
   background-color: #f2f2f2;
 }
@@ -352,7 +401,7 @@ a {
 }
 
 .info__description {
-  padding: 18px 40px 0;
+  padding: 18px 40px 44px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -367,14 +416,12 @@ a {
   padding: 45px 40px 0;
 }
 
-.info__line:last-child {
-  padding: 30px 0 0 0;
-}
-
 .info__line {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 40px;
 }
 
 .info__icon {
@@ -385,6 +432,7 @@ a {
 .info__item {
   display: flex;
   flex-direction: row;
+  padding: 0 0 30px 0;
 }
 
 .info__article {
@@ -445,7 +493,7 @@ a {
 }
 
 .portfolio__nav {
-  padding: 15px 0px 13px 6px;
+  padding: 15px 0px 11px 6px;
   max-width: 289px;
 }
 .portfolio__navigation {
@@ -498,6 +546,10 @@ a {
   cursor: pointer;  
 }
 
+.gallery_img {
+  width: 99%;
+}
+
 .gallery_item-active {
   -webkit-box-shadow: 0px 0px 0px 5px rgba(240,108,100,1);
   -moz-box-shadow: 0px 0px 0px 5px rgba(240,108,100,1);
@@ -510,7 +562,7 @@ a {
 
 .about-us {
   background-color: #f2f2f2;
-  padding: 0 0 20px 0;
+  padding: 0 0 17px 0;
   border-bottom: 6px solid #ffffff;
 }
 .about-us__title {
@@ -541,8 +593,12 @@ a {
 .staff__item {
   display: flex;
   flex-direction: column;
+  max-width: 300px;
 }
 
+.staff__photo {
+  width: 100%;
+}
 .staff__name {
   padding: 16px 0 0 0px;
   font-family: "Lato";
@@ -562,7 +618,6 @@ a {
 }
 
 .staf__description[title="human1"] {
-  max-width: 300px;
   padding: 11px 0 0 0;
   font-family: "Lato";
   font-size: 12px;
@@ -573,7 +628,6 @@ a {
 }
 
 .staf__description[title="human2"] {
-  max-width: 300px;
   padding: 11px 0 0 0;
   font-family: "Lato";
   font-size: 12px;
@@ -583,7 +637,6 @@ a {
 }
 
 .staf__description[title="human3"] {
-  max-width: 300px;
   padding: 11px 0 0 0;
   font-family: "Lato";
   font-size: 12px;
@@ -770,7 +823,7 @@ a {
 .quote__contact {
   display: flex;
   flex-direction: column;
-  padding: 18px 0 0 20px;
+  padding: 17px 0 0 20px;
 }
 
 .quote__subtitle {
@@ -794,8 +847,7 @@ a {
 
 .fa-map-marker-alt {
   font-size: 12px;
-  padding: 1px 13px 0 0;
-  transform: scale(0.7, 1.1);
+  padding: 1px 13px 0 0;  
 }
 
 .fa-phone {
@@ -903,7 +955,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 22px 40px;
+  padding: 17px 40px;
 }
 
 .footer__company {
@@ -982,3 +1034,247 @@ a {
   font-size: 15px;
   color: #656d89;
 }
+
+
+@media screen and (max-width: 768px) {
+  .info {
+    padding: 31px 40px 19px;
+  }
+  .info__line {    
+    padding: 0 35px 0 0;
+  }
+  .info__title {
+    padding: 0;
+  }
+  .info__item {  
+    padding: 0 0 50px 0;
+  }
+  .info__description {
+    padding: 18px 17px 34px 0;
+    letter-spacing: 0.16px;
+  }
+  .portfolio__description {
+    padding: 20px 50px 0 5px;
+    word-spacing: -0.49px;
+    line-height: 26px;
+  }
+  .portfolio__nav {
+    padding: 15px 0px 20px 9px;
+  }
+  .portfolio__gallery {
+    height: 806px;
+  }  
+  .gallery__item {
+    padding: 5px 5px 6px 5px;
+  }
+  .about-us__title {
+    padding: 6px 0 0 12px;
+  }
+  .about-us__description {
+    padding: 17px 0 0 12px;
+  }
+  .about-us__staff {
+    padding: 37px 0 0 0;
+  }
+  .staff__item:nth-of-type(1) {
+    margin-left: 13px;
+  }
+  .staff__photo {
+    width: 94%;
+  }
+  .position {
+    padding: 50px 28px 48px;
+  }
+  .staff__name {
+    padding: 9px 0 0 0px;
+  }
+  .staf__description[title="human1"] {
+    padding: 3px 13px 0 0;
+    text-align: justify;
+    line-height: 21px;
+  }
+  .staf__description[title="human2"] {
+    padding: 3px 13px 0 0;
+    text-align: justify;
+    line-height: 21px;
+  }
+  .staf__description[title="human3"] {
+    padding: 3px 13px 0 0;
+    text-align: justify;
+    line-height: 21px;
+  }
+  .staf__contact {
+    padding: 11px 0 0 0;
+  }
+  .quote__email {
+    align-items: flex-start;
+  }
+  .quote__email-contact {
+    padding: 5px 0 0 0;
+  }
+  .email__item {
+    margin: 18px 0 -7px 0;
+    width: 427px;
+    height: 37px;
+  }
+  .email__text {
+    margin: 19px 0 0 0;
+    width: 426px;
+    height: 147px;
+    padding: 6px 0px 0px 13px;
+  }
+  .email_submit {
+    margin: 20px 0 0 0;
+    width: 133px;
+    height: 34px;
+  }
+  .quote__contact {
+    padding: 16px 0 0 28px;
+  }
+  .quote__info {
+    padding: 0px 0 13px 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .info__line {
+    justify-content: center;
+  }
+  .portfolio__gallery {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 24px 0 17px 0;
+  }
+  .header__logo {
+    padding: 0 0px 0px 105px;
+    font-size: 20px;    
+  }
+  .header__nav {
+    display: none;
+  }
+  .slider__item:first-of-type {
+    margin: 24.4% 0 23.6% 2%;
+  }
+  .slider__item:last-of-type {
+    margin: 25.4% 1.6% 2.6% 0%;
+  }
+  .info {
+    padding: 29px 34px 3px;
+  }
+  .info__description {
+    padding: 13px 17px 0px 0;
+  }
+  .info__item {
+    padding: 0 0 18px 0;
+  }
+  .position-portfolio {
+    padding: 44px 0px 12px;
+  }
+  .portfolio__description {
+    padding: 20px 0px 0 5px;
+    line-height: 28px;
+  }
+  .portfolio__nav {
+    padding: 14px 0px 21px 9px;
+  }
+  .gallery__item {
+    width: 50%;
+  }
+  .portfolio__gallery {
+    height: 574px;
+  }
+  .about-us__staff {
+    flex-wrap: wrap;
+    padding: 48px 0 0 0;
+  }
+  .about-us__description {
+    text-align: left;
+  }
+  .position {
+    padding: 24px 18px 24px;
+  }
+  .position-portfolio{
+    margin: 0px 23px;
+  }
+  .portfolio__nav {
+    padding: 15px 0px 27px 9px;
+  } 
+  .staff__item:nth-of-type(1) {
+    margin-bottom: 33px;
+  }  
+  .staff__item:nth-of-type(1) .staff__name {
+    padding: 18px 0 0 0px;
+  }
+  .staff__item:nth-of-type(1) .staf__contact {
+    padding: 11px 0 0 0;
+  }
+  .staf__description[title="human2"] {
+    padding: 3px 0px 0 0;
+  }
+  .staff__item:nth-of-type(2) {
+    margin-left: 13px;
+    margin-bottom: 35px;
+  }
+  .staff__item:nth-of-type(2) .staff__name {
+    padding: 17px 0 0 0px;
+  }
+  .staff__item:nth-of-type(2) .staf__contact {
+    padding: 11px 0 0 0;
+  }
+  .staff__item:nth-of-type(3) {
+    margin-left: 13px;
+  }
+  .staff__item:nth-of-type(3) .staff__name {
+    padding: 14px 0 0 0px;
+  }
+  .staff__item:nth-of-type(2) .staf__contact {
+    padding: 8px 0 0 0;
+  }
+  .staf__description[title="human3"] {
+    padding: 3px 1px 0 0;
+  }  
+  .staff__photo {
+    width: 105%;
+  }  
+  .position__quote {
+    padding: 47px 32px 41px;
+  }
+  .quote__email-contact {
+    flex-wrap: wrap;
+  }
+  .email__item {
+    width: 300px;
+    height: 36px;
+  }
+  .email__text {
+    width: 298px;
+    height: 151px;
+  }
+  .email_submit {
+    margin: 13px 0 0 0;
+    width: 312px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: #FBC65F;
+    color: #431b1c;
+  }
+  .quote__contact {
+    padding: 29px 0 0 0px;
+  }
+  .quote__message {
+    left: 5%;
+  }
+  .footer__company {
+    display: none;
+  }
+  .footer__info {
+    justify-content: center;
+    padding: 21px 40px;
+  }
+  
+}   
