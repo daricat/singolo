@@ -179,6 +179,7 @@ function get_info () {
 
 function mess_close () {
     message_block.classList.remove('quote__message-active');
+    document.getElementsByClassName('quote__email')[0].reset();
 }
 
 form_submit.addEventListener('click', get_info);
